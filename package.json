@@ -1,0 +1,21 @@
+{
+  "name": "ddw",
+  "version": "1.0.0",
+  "description": "sth about books",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node seeds/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "connect-session-sequelize": "^7.1.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "mysql2": "^3.9.6",
+    "nodemon": "^2.0.20",
+    "sequelize": "^6.37.3"
+  }
+}
